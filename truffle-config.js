@@ -3,7 +3,7 @@ const Web3 = require('web3');
 
 const provider = new HDWalletProvider(
     'YOUR_MNEMONIC',
-    'https://eth-rinkeby.alchemyapi.io/v2/YOUR_ALCHEMY_API_KEY'
+    'https://eth-kovan.alchemyapi.io/v2/YOUR_ALCHEMY_API_KEY'
 );
 const web3 = new Web3(provider);
 
