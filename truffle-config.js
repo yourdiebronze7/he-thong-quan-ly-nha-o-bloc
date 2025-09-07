@@ -18,6 +18,7 @@ module.exports = {
             provider: () => provider,
             network_id: 42,
             gas: 5000000,
+            gasPrice: 20000000000 // Setting gas price to 20 Gwei
         },
     },
     compilers: {
